@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*=================================================================
-	Our skills
+	My skills
 ==================================================================*/
 
 #team-skills {
@@ -823,61 +823,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=================================================================
-	Pricing section
+	Opportunity section
 ==================================================================*/
-
-#pricing {
-    padding: 70px 0;
+.opportunity-box {
+  padding: 50px;
+  min-height: 250px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: 0.3s;
 }
 
-.pricing {
-	background-color: #2b2c30;
+.opportunity-box:hover {
+  transform: translateY(-5px);
 }
 
-.price-title {
-  background-color: #2b2c30;
-  padding: 30px 0 20px;
+.opportunity-box h4 {
+  margin-bottom: 10px;
 }
-
-.price-title > h3 {
-    color: #6cb670;
-    font-family: Oswald;
-    font-weight: 700;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-}
-
-.price-title > p {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
-.price-title .value {
-	color: #6cb670;
-	font-size: 30px;
-}
-
-.pricing li {
-    border-top: 2px solid #3F4045;
-    font-weight: 400;
-    padding: 10px 0;
-}
-
-.pricing li:last-child {
-    border-bottom: 2px solid #3F4045;
-}
-
-.pricing li:nth-child(2n) {
-    background-color: #2F3035;
-}
-
-.pricing a.btn {
-    text-transform: uppercase;
-	margin: 20px 0;
-}
-
-
 
 /*=================================================================
 	Testimonial section
