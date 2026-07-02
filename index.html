@@ -10,6 +10,22 @@
         <meta name="author" content="Krisha Gupta">
 		
         <title>Meghna</title>
+    	<style>
+        	#home {
+            	height: 100vh;
+            	display: flex;
+            	align-items: center;
+            	justify-content: center;
+            	background: #111;
+            	color: white;
+        	}
+
+        	.hero-text {
+            	text-align: left;
+            	max-width: 700px;
+        	}
+    	</style>
+</head>
 		
 		<!-- Mobile Specific Meta
 		================================================== -->
@@ -79,39 +95,22 @@
         <!--
         Welcome Slider
         ==================================== -->
-		<section id="home">	    
-			<div id="slitSlider" class="sl-slider-wrapper">
-				<div class="sl-slider">
-
-					<!-- single slide item -->
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-1"></div>
-						<div class="carousel-caption">
-							<div>
-								<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="heading animated fadeInRight">Hi, I'm Krisha Gupta</h2>
-							</div>
-						</div>
-						</div>
+		<section id="home">
+			<div class="hero-text">
+				<div class="carousel-caption">
+					<div>
+						<h2 class="heading animated fadeInRight">
+							Hi, I'm Krisha Gupta
+						</h2>
+						<p class="animated fadeInRight" data-wow-delay="300ms">
+							High school student building software projects and learning algorithms through hands-on development.
+						</p>
+						<p class="animated fadeInRight" data-wow-delay="300ms">
+							Focused on Java, USACO training, and creating real-world CS projects in web development and tools.
+						</p>
 					</div>
-					<!-- single slide item -->
-
-					
-
-				</div><!-- /sl-slider -->
-				
-				<nav id="nav-arrows" class="nav-arrows">
-					<span class="nav-arrow-prev">Previous</span>
-					<span class="nav-arrow-next">Next</span>
-				</nav>
-
-				<nav id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-				</nav>
-
-			</div><!-- /slider-wrapper -->
+				</div>
+			</div>
 		</section>
 		<!--/#home section-->
 		
