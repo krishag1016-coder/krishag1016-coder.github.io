@@ -823,7 +823,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=================================================================
-	Pricing section
+	Opportunity section
 ==================================================================*/
 .opportunity-box {
   padding: 50px;
@@ -841,58 +841,6 @@ h1, h2, h3, h4, h5, h6 {
 .opportunity-box h4 {
   margin-bottom: 10px;
 }
-/* #pricing {
-    padding: 70px 0;
-}
-
-.pricing {
-	background-color: #2b2c30;
-}
-
-.price-title {
-  background-color: #2b2c30;
-  padding: 30px 0 20px;
-}
-
-.price-title > h3 {
-    color: #6cb670;
-    font-family: Oswald;
-    font-weight: 700;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-}
-
-.price-title > p {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
-.price-title .value {
-	color: #6cb670;
-	font-size: 30px;
-}
-
-.pricing li {
-    border-top: 2px solid #3F4045;
-    font-weight: 400;
-    padding: 10px 0;
-}
-
-.pricing li:last-child {
-    border-bottom: 2px solid #3F4045;
-}
-
-.pricing li:nth-child(2n) {
-    background-color: #2F3035;
-}
-
-.pricing a.btn {
-    text-transform: uppercase;
-	margin: 20px 0;
-}
-*/
-
 
 /*=================================================================
 	Testimonial section
