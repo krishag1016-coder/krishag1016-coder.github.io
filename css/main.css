@@ -237,28 +237,27 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-#slitSlider .carousel-caption {
+#home .carousel-caption {
 	padding: 0;
-    display: table;
     height: 100%;
     width: 100%;
-    min-height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 11;
 	background-color: rgba(0,0,0,.5);
 }
 
-#slitSlider .carousel-caption a {
+#home .carousel-caption a {
     font-size: 18px;
 }
 
-#slitSlider .carousel-caption > div {
-    vertical-align: middle;
-    display: table-cell;
+#home .carousel-caption > div {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 120px;
+    padding-left: 80px;
 }
 
-#slitSlider .carousel-caption h2 {
+#home .carousel-caption h2 {
     color: #FFF;
     font-family: Oswald, sans-serif;
     font-size: 70px;
@@ -267,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-#slitSlider .carousel-caption h3 {
+#home .carousel-caption h3 {
     color: #FFF;
     font-family: Oswald, sans-serif;
     font-size: 40px;
