@@ -235,6 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #home {
     position: relative;
+	height: 100vh;
 }
 
 #home .carousel-caption {
@@ -245,36 +246,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home .carousel-caption a {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #home .carousel-caption > div {
 	display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    padding-top: 120px;
-    padding-left: 80px;
+    height: 100%;
+    padding-left: 10%;
+	padding-right: 10%;
 }
 
 #home .carousel-caption h2 {
     color: #FFF;
-    font-family: Oswald, sans-serif;
-    font-size: 70px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 60px;
     font-weight: 700;
-    margin-bottom: 40px;
-    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-transform: none;
 }
 
-#home .carousel-caption h3 {
-    color: #FFF;
-    font-family: Oswald, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 59px;
+#home .carousel-caption p {
+    color: #E5E5E5;
+    font-family: Ubuntu, sans-serif;
+    font-size: 21px;
+	line-height: 1.7;
+	max-width: 750x;
+    margin-bottom: 15px;
 }
 
+#home .hero-buttons {
+	margin-top: 30 px;
 
+#home .hero-buttons a {
+	display: inline-block;
+	padding: 12px 30px;
+	margin-right: 15px;
+	border-radius: 30px;
+}
 
 /*=================================================================
 	Navigation
