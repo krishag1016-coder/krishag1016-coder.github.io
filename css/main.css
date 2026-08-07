@@ -234,15 +234,18 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #home {
-    position: relative;
 	height: 100vh;
+	display: flex;
+	align-items: center;
+	background: #111827;
+	color: white;
 }
 
 #home .carousel-caption {
 	padding: 0;
     height: 100%;
     width: 100%;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.35);
 }
 
 #home .carousel-caption a {
@@ -264,8 +267,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Ubuntu, sans-serif;
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-transform: none;
+}
+
+#home .carousel-caption h3 {
+	color: #60A5FA;
+	font-family: Ubuntu, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 25px;
 }
 
 #home .carousel-caption p {
@@ -277,16 +288,35 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 
+/* Buttons */
 #home .hero-buttons {
 	margin-top: 30 px;
 
 #home .hero-buttons a {
 	display: inline-block;
-	padding: 12px 30px;
+	padding: 13px 32px;
 	margin-right: 15px;
 	border-radius: 30px;
+	font-size: 16px;
+	font-family: Ubuntu, sans-serif;
+	transition: 0.3s;
 }
 
+#home .btn-primary {
+	background: #3B82F6;
+	color: white;
+	border: 2px solid #3B82F6;
+}
+
+#home .btn-outline {
+	background: transparent;
+	color: white;
+	border: 2px solid #3B82F6;
+}
+
+#home .hero-buttons a:hover {
+	transform: translateY(-3px);
+	opacity: .85;
 /*=================================================================
 	Navigation
 ==================================================================*/
